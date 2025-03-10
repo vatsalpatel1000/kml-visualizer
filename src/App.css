@@ -1,3 +1,5 @@
+@import 'leaflet/dist/leaflet.css';
+
 .App {
   text-align: center;
 }
@@ -12,6 +14,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.leaflet-container {
+  height: 500px;
+  width: 100%;
+}
+
 
 .App-header {
   background-color: #282c34;
