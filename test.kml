@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <!-- A Point: Sabarmati Ashram -->
+    <Placemark>
+      <Point>
+        <coordinates>72.571362,23.060074,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- A LineString connecting famous locations in Ahmedabad -->
+    <Placemark>
+      <LineString>
+        <coordinates>
+          72.571362,23.060074,0  <!-- Sabarmati Ashram -->
+          72.585022,23.030513,0  <!-- Law Garden -->
+          72.579675,23.022505,0  <!-- CG Road -->
+          72.597395,23.031597,0  <!-- Riverfront Park -->
+          72.616975,23.020632,0  <!-- Manek Chowk -->
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- A Polygon: Covering Kankaria Lake -->
+    <Placemark>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              72.600856,22.998473,0  <!-- Point A -->
+              72.602789,22.998473,0  <!-- Point B -->
+              72.602789,23.001712,0  <!-- Point C -->
+              72.600856,23.001712,0  <!-- Point D -->
+              72.600856,22.998473,0  <!-- Closing the loop -->
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
